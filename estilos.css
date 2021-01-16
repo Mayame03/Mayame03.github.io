@@ -1,0 +1,702 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body, html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7em;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+ 
+}
+.Contenedor{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+ 
+}
+
+
+
+/* BARRA DE NAVEGACIÓN*/
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar{
+    background-color: rgba(91, 148, 148, 0.651);
+    color: white;
+    overflow:auto;
+}
+.nav{
+    display:block;
+}
+
+
+#navbar li{
+    float: left;
+}
+
+.li{
+    display: list-item;
+  
+}
+.barra-navegación{
+    list-style-type:none;
+ 
+}
+
+.barra-navegación li >a{
+    float: left;
+    display: center;
+}
+
+
+a{ text-decoration: none;}
+
+
+/* BARRA DE NAVEGACIÓN - INTERACCIÓN*/
+#navbar ul li a.current, #navbar ul li a:hover {
+    background-color: rgb(131, 130, 130);
+    color: #8af7d6;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+}
+#navbar ul{
+    float: right;
+}
+.barra-navegación li a{
+   padding: 15px 20px;
+   text-decoration: none;
+}
+
+
+
+
+/* HEADER PORTADA*/
+#portada{
+    background: linear-gradient(to right, #2c5364ce, #203a43c0, #0f20279f),url(imagenes/fondo.jpg) center/cover;
+    
+    height: 650px;
+}
+
+
+
+#portada .portada-textos h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#portada .portada-textos p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+
+
+
+#portada .portada-textos .texto1{
+    color: #ffffff;
+}
+
+#portada .portada-textos h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+
+#portada .portada-textos {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 170px;
+    
+}
+
+
+/*footer*/
+
+#main-footer {
+    text-align: center;
+    background-color: rgba(91, 148, 148, 0.651);
+    color: #fff;
+    padding: 20px;
+}
+
+ /*Sobre mi */ 
+    
+
+ .cuadro{
+    background-color: rgba(91, 148, 148, 0.651);
+    
+    
+}
+
+.Cuadro{
+    background-color: rgba(39, 43, 43, 0.527);
+   
+  height: 150px;
+    
+}
+
+
+.foto{
+    display: flex;
+    justify-content: space-evenly;
+  
+} 
+.FOTO{
+    width: 25%;
+}
+
+.foto .textos_sobre_mi{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    float:center;
+}
+
+h2{
+    color: white;
+    font-size: 250%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.footer{
+    display: block;
+}
+
+    
+    /*Educación - Conocimientos */ 
+  
+/*
+    .educacion{
+        background-color: rgba(247, 247, 247, 0.774);
+    }
+   .content
+    {
+        padding: 20px ;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .contenido
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+     
+    }
+    
+    .contenido .title
+    {
+        margin-left: 20px;
+    }
+    
+    .body1
+    {
+        border: 0px solid #000;
+        margin: 20px;
+        width: 300px;
+        height: 190px;
+        padding: 25px;
+        
+    
+    }
+
+    .body2
+    {
+        border: 0px solid #000;
+        margin: 20px;
+        width: 300px;
+        height: 190px;
+        padding: 25px;
+        
+    
+    }
+
+    */
+    .icono{
+        color: white;
+    }
+    .textos_sobre_mi{
+        float: right;
+        width: 50%;
+        height: 100%;
+        padding: 50px 30px;
+
+        
+    }
+  
+   /* .Contenedor-sobre-mi{
+        height: 600px;
+        width: 100%;
+        background-color: rgba(185, 185, 185, 0.911);
+        display: flex;
+       
+        flex-wrap: wrap;
+    }*/
+
+    .textos_sobre_mi{
+        height: 600px;
+        width: 100%;
+        background-color: rgba(185, 185, 185, 0.911);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .texto{
+        color: white;
+      
+        
+  
+  
+  
+  
+  
+ 
+   
+    }
+
+    #informacion{
+        height: 500px;
+        margin-bottom: 0;
+    }
+    
+    #informacion .imagen-info{
+        float: right;
+        width: 50%;
+        background-color: white;
+        min-height: 100%;
+    }
+    
+    .fondo-oscuro{
+        background-color: rgba(99, 99, 99, 0.932);
+        color: #fff;
+    }
+
+    .imagen-info{
+        width: 100px;
+    }
+    
+    #informacion .informacion{
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+       
+    }
+
+
+
+
+
+
+
+   
+    
+    .habilidades1{
+        
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      
+    }
+    .habilidades2{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+       
+        
+    }
+    .h-1{
+       
+        background-color: rgba(112, 167, 167, 0.493);
+        border-radius: 10px;
+        height: 30px;
+        width: 120px;
+        color: white;
+       
+    }
+
+    .h-2{
+        background-color: rgba(112, 167, 167, 0.493);
+        border-radius: 10px;
+        height: 30px;
+        width: 120px;
+        color: white;
+    }
+    .h-3{
+        background-color: rgba(112, 167, 167, 0.493);
+        border-radius: 10px;
+        height: 30px;
+        width: 120px;
+        color: white;
+    }
+    .h-4{
+        background-color: rgba(112, 167, 167, 0.493);
+        border-radius: 10px;
+        height: 30px;
+        width: 140px;
+        color: white;
+    }
+
+    .h-5{
+        background-color: rgba(112, 167, 167, 0.493);
+        border-radius: 10px;
+        height: 30px;
+        width: 260px;
+        color: white;
+    }
+
+
+    /* TRABAJOS DE DESARROLLO PROFESIONAL*/
+    .Contenedor-clase{
+        height: 300px;
+        width: 100%;
+        background-color: rgba(209, 205, 205, 0.76);
+        display: flex;
+    }
+
+    .galeria-port{
+        display: flex;
+        justify-content:space-evenly ;
+    }
+    
+    .trabajo-clase{
+        width: 379.8px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+    }
+    .trabajo-clase > img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display:block;
+    }
+
+    .hover-galeria{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 0;
+        transform: scale(0);
+        background: rgba(87, 169, 172, 0.63);
+        transition: transform .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+   
+
+    .hover-galeria > a{
+        color: white;
+        text-align: center;
+        
+    }
+    .trabajo-clase:hover .hover-galeria{
+        transform: scale(1);
+    }
+
+
+     /*EDUCACIÓN DISEÑO INDUSTRIAL*/  
+
+    #informacion-educacion{
+        height: 500px;
+        margin-bottom: 0;
+    }
+    
+    #informacion-educacion .imagen-info{
+        float: right;
+        width: 50%;
+      /*  background-color:rgba(0, 0, 0, 0.308) ;*/
+        min-height: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .fondo-oscuro{
+        background-color:  rgba(134, 187, 187, 0.651);
+        color: #fff;
+    }
+    
+    #informacion-educacion .informacion-formacion{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+        
+        align-items: center;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+    .Contenedor-educacion-DI{
+        height: 500px;
+        width: 100%;
+        background-color: rgba(209, 205, 205, 0.76);
+        display: flex;
+    }
+
+    .galeria-port{
+        display: flex;
+        justify-content:space-evenly ;
+       
+        
+       
+    }
+    .educacion-di{
+        width: 379.8px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px 0 rgb (0, 0, 0 , .5);
+    }
+
+    .educacion-di > img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        display:block;
+    }
+
+    .hover-img{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        top: 0;
+        transform: scale(0);
+        background:  rgba(91, 148, 148, 0.651);
+        transition: transform .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+   
+    
+
+    .hover-img > a{
+        color: white;
+        text-align: center;
+        
+    }
+    .educacion-di:hover .hover-img{
+        transform: scale(1);
+    }
+
+    .meto{
+        text-align: center;
+        color: white;
+    }
+
+
+
+    /*CAJAS*/
+
+    .caja{
+        height: 400px;
+        float: left;
+        width: 33.3%;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .caja i{
+        margin-bottom: 15px;
+    }
+    
+    .desayuno-gratis{
+        background-color: rgba(153, 204, 204);
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    .fondo-blanco{
+        background-color: #d9e4e2;
+        color: #333;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    h3{
+        margin-top: 15px;
+    }
+
+
+    /*experiencia*/
+
+    #experiencia1{
+        height: 500px;
+        margin-bottom: 0;
+    }
+    
+    #experiencia1 .imagen-1{
+        float: right;
+        width: 50%;
+    
+        min-height: 100%;
+    }
+    
+    .fondo-1{
+        background-color: rgba(102, 129, 127, 0.658);
+        color: #fff;
+    }
+    
+    #experiencia1 .informacion1{
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+       
+    }
+    
+    /*experiencia 2*/
+  
+    #experiencia2{
+        height: 500px;
+        margin-bottom: 0;
+    }
+    
+    #experiencia2 .imagen-2{
+        float: right;
+        width: 50%;
+        min-height: 100%;
+    }
+    .fondo-2{
+        background-color: rgba(142, 172, 170, 0.658);
+        color: rgb(206, 5, 5);
+    }
+    
+    #experiencia2 .informacion-2 {
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+       
+    }
+    
+
+
+
+    /* CONTACTANOS*/
+
+.text1-contacto{
+    font-size: 40px;
+    color:#609798 ;
+   
+   
+}
+
+.info-sobre-textos{
+    margin-top: 30px;
+}
+#contacto .formulario{
+    margin-bottom: 20px;
+}
+
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+#info-adicional {
+    margin-top: 50px;
+
+}
+
+#contacto{
+    margin-top: 0px;
+}
+
+/* BOTONES DE INTERACCIÓN*/
+
+
+.boton-negro{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    background-color: rgb(41, 83, 85);
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.boton-negro a:hover{
+    background-color: #f7c08a
+}
+
+
+/*PROYECTOS*/
+
+
+
+ #texto-ByL .texto-byl {
+    float: right;
+    color: darkblue;
+    text-align: center;
+    width: 50%;
+        height: 100%;
+  
+        padding: 50px 30px;
+}
+
+
+.img-BYL{
+    float: left;
+}
+
