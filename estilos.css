@@ -700,3 +700,115 @@ h2{
     float: left;
 }
 
+.dimensiones {
+    height: 400px;
+    background-color: rgba(115, 147, 156, 0.658);
+}
+
+.emocional{
+    float: left;
+    margin: 80px 200px;
+    color: rgb(255, 255, 255);
+    /*border: solid 1px;*/
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+
+.funcional{
+    float: right;
+    margin: 80px 200px;
+    color: rgb(255, 255, 255);
+   /* border: solid 1px;*/
+    width: 350px;
+    height: 200px;
+    text-align: center;  
+}
+
+.box{
+    height: 400px;
+    float: left;
+    width: 25%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 15px;
+}
+
+
+.caja-color{
+    background-color: rgba(88, 118, 126, 0.658);
+    color: rgb(255, 255, 255);
+    
+}
+.fondo-blanco{
+    background-color: #b4b4b4;
+    color: rgb(255, 255, 255);
+}
+
+.clear{
+    clear: both;
+}
+
+h3{
+    margin-top: 0px;
+}
+
+
+
+
+.boton1{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    background-color: #5f828b;
+   
+    padding: 13px 20px;
+  
+}
+
+.informacion a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    background-color: #94cbd481;
+  
+}
+
+
+    
+
+
+#panoramica{
+    height: 428px;
+    margin-bottom: 0;
+}
+
+#panoramica .imagen-info{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.fondobyl{
+    background: linear-gradient(to right, #2c5364ce, #203a43c0, #0f20279f),url(img-proyectos/fabricado-byl.jpeg) no-repeat ;
+    background-attachment: fixed;
+    color: #fff;
+    
+    
+}
+
+#panoramica .informacion{
+    margin: 0px 900px;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    align-items: center;
+   
+}
+
+
