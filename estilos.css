@@ -685,20 +685,25 @@ h2{
 
 
 
- #texto-ByL .texto-byl {
-    float: right;
-    color: darkblue;
-    text-align: center;
-    width: 50%;
-        height: 100%;
+#proyecto-ByL{
   
-        padding: 50px 30px;
+    background-color: rgb(255, 255, 255);
 }
 
+ .texto-byl {
+    float: right;
+    color: rgb(84, 151, 148);
+    text-align: center;
+    width: 40%;
+    height: 100%;
+   margin: 150px 70px;
+}
 
 .img-BYL{
-    float: left;
+    padding: 50px 80px ;
 }
+
+
 
 .dimensiones {
     height: 400px;
