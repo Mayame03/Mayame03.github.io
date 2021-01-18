@@ -361,12 +361,19 @@ h2{
 
      /*EDUCACIÓN DISEÑO INDUSTRIAL*/  
 
+     .titulo-edu{
+         color: rgb(78, 131, 139);
+         height: 50px;
+         margin-top: 20px;
+         text-align: center;
+     }
+
     #informacion-educacion{
-        height: 450px;
+        height: 505px;
         margin-top: 0;
     }
     
-    #informacion-educacion .imagen-info{
+    #informacion-educacion .imagen-edu{
         float: right;
         width: 50%;
         min-height: 100%;
@@ -379,7 +386,7 @@ h2{
     }
     
     .fondo-edu{
-        background-color:  rgba(134, 187, 187, 0.651);
+        background-color:  rgba(105, 153, 153, 0.651);
         color: #fff;
     }
     
@@ -397,7 +404,7 @@ h2{
     .Contenedor-educacion-DI{
         height: 500px;
         width: 100%;
-        background-color: rgba(209, 205, 205, 0.76);
+        background-color: rgba(255, 255, 255, 0.76);
         display: flex;
     }
 
@@ -471,15 +478,15 @@ h2{
         margin-bottom: 15px;
     }
     
-    .desayuno-g{
-        background-color: rgb(107, 165, 165);
+    .service{
+        background-color: rgb(161, 161, 161);
         color: rgb(255, 255, 255);
         
     }
     
-    .fondo-blanco{
-        background-color: #d9e4e2;
-        color: #333;
+    .fondo-edu2{
+        background-color: #c9cfcf;
+        color: rgb(253, 253, 253);
     }
     
     .clear{
@@ -490,27 +497,69 @@ h2{
         margin-top: 15px;
     }
 
+/*EXPERIENCIA CORREGIDA*/
+
+#infor{
+    height: 500px;
+    margin-bottom: 0;
+}
+
+#infor .imagen-info{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.fondo-color1{
+    background-color: rgba(156, 176, 179, 0.932);
+    color: #fff;
+}
+.fondo-color2{
+    background-color: rgba(101, 131, 136, 0.932);
+    color: #fff;
+}
+
+.imagen-info{
+    width: 90px;
+    margin-top: 80px;
+}
+
+#infor .informacion{
+    float: right;
+    margin-top: 100px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+   
+}
+
+
+
+
+
+
 
     /*experiencia*/
 
-    #experiencia1{
+    #experiencia01{
         height: 500px;
         margin-bottom: 0;
     }
     
-    #experiencia1 .imagen-1{
+    #experiencia01 .imagen1{
         float: right;
         width: 50%;
     
         min-height: 100%;
     }
     
-    .fondo-1{
+    .fondo1{
         background-color: rgba(102, 129, 127, 0.658);
         color: #fff;
     }
     
-    #experiencia1 .informacion1{
+    #experiencia01 .informacion1{
         float: left;
         width: 50%;
         height: 100%;
@@ -521,23 +570,24 @@ h2{
     
     /*experiencia 2*/
   
-    #experiencia2{
+
+    #experiencia02{
         height: 500px;
         margin-bottom: 0;
     }
     
-    #experiencia2 .imagen-2{
+    #experiencia02 .imagen2{
         float: right;
         width: 50%;
         min-height: 100%;
     }
-    .fondo-2{
+    .fondo2{
         background-color: rgba(142, 172, 170, 0.658);
-        color: rgb(206, 5, 5);
+        color: rgb(5, 206, 139);
     }
     
-    #experiencia2 .informacion-2 {
-        float: left;
+    #experiencia02 .informacion2 {
+        float: right;
         width: 50%;
         height: 100%;
         text-align: center;
@@ -761,7 +811,7 @@ a:hover{
     margin-bottom: 0;
 }
 
-#panoramica .imagen-info{
+#panoramica .imagen-pano{
     float: left;
     width: 50%;
     min-height: 100%;
