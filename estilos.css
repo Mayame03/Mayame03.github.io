@@ -186,61 +186,8 @@ h2{
 }
 
     
-    /*Educación - Conocimientos */ 
+
   
-/*
-    .educacion{
-        background-color: rgba(247, 247, 247, 0.774);
-    }
-   .content
-    {
-        padding: 20px ;
-        width: 90%;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        max-width: 1000px;
-        margin: auto;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .contenido
-    {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-     
-    }
-    
-    .contenido .title
-    {
-        margin-left: 20px;
-    }
-    
-    .body1
-    {
-        border: 0px solid #000;
-        margin: 20px;
-        width: 300px;
-        height: 190px;
-        padding: 25px;
-        
-    
-    }
-
-    .body2
-    {
-        border: 0px solid #000;
-        margin: 20px;
-        width: 300px;
-        height: 190px;
-        padding: 25px;
-        
-    
-    }
-
-    */
     .icono{
         color: white;
     }
@@ -252,16 +199,7 @@ h2{
 
         
     }
-  
-   /* .Contenedor-sobre-mi{
-        height: 600px;
-        width: 100%;
-        background-color: rgba(185, 185, 185, 0.911);
-        display: flex;
-       
-        flex-wrap: wrap;
-    }*/
-
+ 
     .textos_sobre_mi{
         height: 600px;
         width: 100%;
@@ -271,37 +209,33 @@ h2{
     }
 
     .texto{
-        color: white;
+        color: rgb(71, 112, 117);
       
-        
-  
-  
-  
-  
-  
- 
    
     }
 
+
+
+    /* sobre mi nuevo  correcto*/ 
     #informacion{
-        height: 500px;
+        height: 650px;
         margin-bottom: 0;
     }
     
     #informacion .imagen-info{
-        float: right;
+        float: left;
         width: 50%;
-        background-color: white;
         min-height: 100%;
     }
     
-    .fondo-oscuro{
-        background-color: rgba(99, 99, 99, 0.932);
+    .fondo-color{
+        background-color: rgba(204, 203, 203, 0.932);
         color: #fff;
     }
 
     .imagen-info{
-        width: 100px;
+        width: 90px;
+        margin-top: 80px;
     }
     
     #informacion .informacion{
@@ -315,11 +249,6 @@ h2{
 
 
 
-
-
-
-
-   
     
     .habilidades1{
         
@@ -337,7 +266,7 @@ h2{
     }
     .h-1{
        
-        background-color: rgba(112, 167, 167, 0.493);
+        background-color: rgba(58, 102, 102, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 120px;
@@ -346,21 +275,21 @@ h2{
     }
 
     .h-2{
-        background-color: rgba(112, 167, 167, 0.493);
+        background-color: rgba(58, 102, 102, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 120px;
         color: white;
     }
     .h-3{
-        background-color: rgba(112, 167, 167, 0.493);
+        background-color: rgba(58, 102, 102, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 120px;
         color: white;
     }
     .h-4{
-        background-color: rgba(112, 167, 167, 0.493);
+        background-color: rgba(58, 102, 102, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 140px;
@@ -368,7 +297,7 @@ h2{
     }
 
     .h-5{
-        background-color: rgba(112, 167, 167, 0.493);
+        background-color: rgba(58, 102, 102, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 260px;
@@ -433,20 +362,23 @@ h2{
      /*EDUCACIÓN DISEÑO INDUSTRIAL*/  
 
     #informacion-educacion{
-        height: 500px;
-        margin-bottom: 0;
+        height: 450px;
+        margin-top: 0;
     }
     
     #informacion-educacion .imagen-info{
         float: right;
         width: 50%;
-      /*  background-color:rgba(0, 0, 0, 0.308) ;*/
         min-height: 100%;
         text-align: center;
         align-items: center;
+
+
+
+        
     }
     
-    .fondo-oscuro{
+    .fondo-edu{
         background-color:  rgba(134, 187, 187, 0.651);
         color: #fff;
     }
@@ -460,14 +392,6 @@ h2{
         align-items: center;
        
     }
-
-
-
-
-
-
-
-
 
 
     .Contenedor-educacion-DI{
@@ -547,8 +471,8 @@ h2{
         margin-bottom: 15px;
     }
     
-    .desayuno-gratis{
-        background-color: rgba(153, 204, 204);
+    .desayuno-g{
+        background-color: rgb(107, 165, 165);
         color: rgb(255, 255, 255);
         
     }
@@ -621,6 +545,51 @@ h2{
        
     }
     
+
+    .boxx{
+        height: 400px;
+        float: left;
+        width: 50%;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .boxx i{
+        margin-bottom: 15px;
+    }
+    
+    .boxxx{
+        height: 400px;
+        float: left;
+        width: 50%;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .boxxx i{
+        margin-bottom: 15px;
+    }
+    
+    .caja-color{
+       
+        background-color: rgba(88, 118, 126, 0.658);
+        color: rgb(255, 255, 255);
+        
+    }
+    .fondo-blanco{
+        background-color: #b4b4b4;
+        color: rgb(255, 255, 255);
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    h3{
+        margin-top: 0px;
+    }
+    
+
 
 
 
@@ -808,7 +777,7 @@ a:hover{
 
 #panoramica .informacion{
     margin: 0px 900px;
-    width: 35%;
+    width: 38%;
     height: 100%;
     text-align: center;
     padding: 50px 30px;
@@ -817,3 +786,49 @@ a:hover{
 }
 
 
+/*profes*/
+
+.titulo-de-mi{
+color: rgb(72, 117, 115);
+text-align: center;
+padding-bottom: 20px;
+}
+
+.lo-que-dicen{
+    height: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cards .card{
+    background-color: rgb(98, 165, 162);
+    display: flex;
+    width: 35%;
+    height: 280px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.6);
+
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: white;
+}
+
+.cards .card > .contenido-texto-card p{
+ font-weight: 200;
+ padding-top: 5px;
+}
