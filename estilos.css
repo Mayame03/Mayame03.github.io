@@ -973,7 +973,7 @@ a:hover{
 }
 
 .fondobyl{
-    background: linear-gradient(to right, #2c5364ce, #203a43c0, #0f20279f),url(img-proyectos/fabricado-byl.jpeg) no-repeat ;
+    background: linear-gradient(to right, #2c5364ce, #203a43c0, #0f20279f),url(img-proyectos/fabricado-byl.jpeg) 50px no-repeat ;
     background-attachment: fixed;
     color: #fff;
     
