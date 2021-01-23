@@ -266,7 +266,7 @@ h2{
     }
     .h-1{
        
-        background-color: rgba(58, 102, 102, 0.644);
+        background-color: rgba(117, 177, 177, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 120px;
@@ -275,21 +275,21 @@ h2{
     }
 
     .h-2{
-        background-color: rgba(58, 102, 102, 0.644);
+        background-color:  rgba(117, 177, 177, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 120px;
         color: white;
     }
     .h-3{
-        background-color: rgba(58, 102, 102, 0.644);
+        background-color:  rgba(117, 177, 177, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 120px;
         color: white;
     }
     .h-4{
-        background-color: rgba(58, 102, 102, 0.644);
+        background-color: rgba(117, 177, 177, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 140px;
@@ -297,7 +297,7 @@ h2{
     }
 
     .h-5{
-        background-color: rgba(58, 102, 102, 0.644);
+        background-color:  rgba(117, 177, 177, 0.644);
         border-radius: 10px;
         height: 30px;
         width: 260px;
